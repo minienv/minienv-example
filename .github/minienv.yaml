@@ -1,0 +1,3 @@
+host: http://api.minikube.loc
+expiration: 300
+disabled: false
