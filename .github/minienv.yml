@@ -1,5 +1,4 @@
 env: dev
-expiration: 300
 disabled: false
 expiration: 300
 metadata:
