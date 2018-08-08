@@ -1,3 +1,21 @@
 env: dev
 expiration: 300
 disabled: false
+expiration: 300
+metadata:
+  editor:
+    hide: false
+    srcDir: "src/app"
+  proxy:
+    ports:
+    - port: 33000
+      hide: false
+      tabs:
+      - name: "Example"
+        path: "/"
+      - name: "Example 2"
+        path: "/index.html"
+  env:
+    vars:
+    - name: var1
+      defaultValue: "val"
