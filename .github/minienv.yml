@@ -2,7 +2,11 @@ env: dev
 disabled: false
 expiration: 300
 metadata:
-  platform: "node-alpine"
+  env:
+    platform: "node-alpine"
+    vars:
+    - name: var1
+      defaultValue: "val"
   editor:
     hide: false
     srcDir: ""
@@ -15,7 +19,3 @@ metadata:
         path: "/"
       - name: "Example 2"
         path: "/index.html"
-  env:
-    vars:
-    - name: var1
-      defaultValue: "val"
