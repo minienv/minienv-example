@@ -1,5 +1,5 @@
 {
-  "name": "tutorial-docker-compose-nodejs-intro",
+  "name": "minienv-example",
   "version": "0.0.1",
   "main": "server.js",
   "scripts": {
