@@ -1,9 +1,0 @@
-applications:
-- path: ./src/app
-  command: node server.js
-  memory: 128M
-  instances: 1
-  domain: mybluemix.net
-  name: nodejs-intro 
-  host: nodejs-intro-${random-word}
-  disk_quota: 1024M

@@ -2,9 +2,10 @@ env: dev
 disabled: false
 expiration: 300
 metadata:
+  platform: "node-alpine"
   editor:
     hide: false
-    srcDir: "src/app"
+    srcDir: ""
   proxy:
     ports:
     - port: 33000
