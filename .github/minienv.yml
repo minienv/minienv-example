@@ -2,7 +2,7 @@ env: dev
 disabled: false
 runtime:
   platform: "node-alpine"
-#  command: ""
+  command: "npm install && npm start"
   env:
     var1: "value1"
 metadata:
