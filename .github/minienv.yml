@@ -3,6 +3,7 @@ disabled: false
 runtime:
   platform: "node-alpine"
   command: "npm install && npm start"
+  port: 3000
   env:
     var1: "value1"
 metadata:
