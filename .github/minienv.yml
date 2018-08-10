@@ -1,21 +1,24 @@
 env: dev
 disabled: false
-expiration: 300
+runtime:
+  platform: "node-alpine"
+#  command: ""
+  env:
+    var1: "value1"
 metadata:
   env:
-    platform: "node-alpine"
     vars:
     - name: var1
       defaultValue: "val"
-  editor:
+  editorTab:
     hide: false
     srcDir: ""
-  proxy:
-    ports:
-    - port: 3000
-      hide: false
-      tabs:
-      - name: "Example"
-        path: "/"
-      - name: "Example 2"
-        path: "/index.html"
+  appTabs:
+  - port: 3000
+    hide: false
+    name: "Example"
+    path: "/"
+  - port: 3000
+    hide: false
+    name: "Example 2"
+    path: "/index.html"
