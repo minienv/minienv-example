@@ -13,7 +13,7 @@ metadata:
       defaultValue: "val"
   editorTab:
     hide: false
-    srcDir: "public"
+    srcDir: ""
   appTabs:
   - port: 3000
     hide: false
